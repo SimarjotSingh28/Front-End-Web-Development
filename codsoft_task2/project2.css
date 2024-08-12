@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.top{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgb(66, 61, 61);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.name{
+    color: aqua;
+    font-size: 30px;
+    transition: 0.5s ease;
+    font-weight: bold;
+    }
+.name:hover{
+    color: orange;
+}
+.about a{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0 20px;
+    transition: 0.5s ease;
+}
+.about a:hover{
+    color: aqua;
+}
+.contact{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+.contact:hover{
+    background-color: aqua;
+
+}
+span{
+    color: aqua;
+}
+.essay{
+    width: 100%;
+    min-height: 120vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 30px 12% 0;
+    gap: 40px;
+}
+.essay-content{
+    max-width: 500px; 
+}
+.essay-content h3{
+    font-size: 42px;
+}
+.essay-content p{
+    font-size: 28px;
+    margin: 25px 0 30px;
+}
+.content a{
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 25px;
+    color: black;
+    background-color: aliceblue;
+    transition: 0.5s ease;
+    line-height: 2;
+    width: 210px;
+
+}
+.content a:hover{
+    background-color: orangered;
+}
+.image img{
+   width: 100%;
+      width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    box-shadow: 0 0 8rem aqua;
+    transition: 0.5s ease;
+}
+
+.image img:hover{
+    box-shadow: 0 0 8rem orangered;
+
+}
+.skills{
+   min-height: 100vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 30px 12% 0;
+    background-color: aliceblue;
+    gap: 40px;
+}
+.image2 img{
+    width: 400px;
+    height: 400px;
+}
+.projects{
+    width: 100%;
+    min-height: 100vh;
+    color: aliceblue;
+    align-items: center;
+    padding: 30px 12% 0;
+    background-color: black;
+    gap: 40px;
+}
+.content30 a{
+    display: flexbox;
+    border-style: solid;
+    border-radius: 2px;
+    gap: 100px;
+    font-size: 25px;
+    color: aliceblue;
+    transition: 0.5s ease;
+    line-height: 2;
+    width: 210px;
+    }
+.content30 a:hover{
+    color: orangered;
+    }
+.content3 p{
+    font-size: 20px;
+    margin: 25px 0 30px;
+}
+img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.game{
+    display:inline-flex ;
+    justify-content: center;
+    text-align: center;
+    
+}
+.email{
+    background-color: aliceblue;
+    min-height: 60vh;
+    padding: 35px 12% 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 40px;    
+}
+.content4{
+    background-color: aliceblue;
+    margin: 0 20px;
+    line-height: 2;
+}
+.email img{
+    height: 50px;
+    width: 50px;
+    transition: 0.8s ease;
+}
+.email img:hover{
+    background: aqua;
+}
+
+footer{
+    padding:  35px 12% 0;
+    background-color: black;
+}
+.footer{
+     display: flex;
+     justify-content: center;
+}
+.mail{
+    background: aliceblue;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.mail:hover{
+    background: orangered;
+}
+.copyrights{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.content2 img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
